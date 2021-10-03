@@ -2,15 +2,15 @@ require 'formula'
 
 class Wow < Formula
   homepage 'http://www.baidu.com'
-  url 'https://raw.githubusercontent.com/Mkluas/homebrew-xie/master/port2.tgz'
-  sha256 '04fa0a54695bfbeb05fedda89309f94dac3ed91a2e9d620aa47ccba1a4bd6714'
-  version '1'
+  url 'https://raw.githubusercontent.com/Mkluas/homebrew-xie/master/wow.tgz'
+  sha256 '7571aa3ed15bf9200a2403e81547cef63e1243aef7124b85125eca6c41093ead'
+  version '2'
 
   def install
-    system 'make'
+    system 'make install'
   end
 
   test do
-    port
+    wow
   end
 end

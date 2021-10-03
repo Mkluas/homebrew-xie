@@ -1,3 +1,3 @@
-rm port.tgz
-tar -zcvf port.tgz port
-echo `shasum -a 256 port.tgz`
+rm wow.tgz
+tar -zcvf wow.tgz wow
+echo `shasum -a 256 wow.tgz`
