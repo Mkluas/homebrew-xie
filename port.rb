@@ -7,8 +7,6 @@ class Port < Formula
   version '150813'
   revision 2
 
-  depends_on :java => "1.7+"
-
   def install
     libexec.install Dir['*']
     (bin/"armitage").write <<~EOS
