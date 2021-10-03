@@ -3,7 +3,7 @@ require 'formula'
 class Port < Formula
   homepage 'http://www.baidu.com'
   url 'https://raw.githubusercontent.com/Mkluas/homebrew-xie/master/port.tgz'
-  sha256 'da26a1eea1415d178e01d1b0dbdab16fe4d4e8fdaf0bc1e713d30ff6a87800ba'
+  sha256 'd33bc2e023c6186ca8bef62e4456ce0b62328cf433227d931f8f4ee4d845218e'
   version '1'
 
   def install
