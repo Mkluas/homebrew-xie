@@ -7,10 +7,10 @@ class Port < Formula
   version '1'
 
   def install
-    
+    echo 'install...'
   end
 
   test do
-
+    port
   end
 end
