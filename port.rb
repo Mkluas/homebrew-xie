@@ -1,25 +1,15 @@
 require 'formula'
 
 class Port < Formula
-  homepage 'http://www.fastandeasyhacking.com/'
-  url 'http://www.fastandeasyhacking.com/download/armitage150813.tgz'
-  sha256 '288065a8b779b6a4f4acaa0332f2ebbfd022529f600e4bf70cd494d84860f6ac'
-  version '150813'
-  revision 2
+  homepage 'http://www.baidu.com'
+  url 'https://raw.githubusercontent.com/Mkluas/homebrew-xie/master/port.tgz'
+  sha256 '0bace4d78eef7de4bb465c59afeb5c2b01fbf2b5645d58d66683a049f4a1710c'
 
   def install
-    libexec.install Dir['*']
-    (bin/"armitage").write <<~EOS
-      #!/bin/sh
-      cd #{libexec} && ./armitage "$@"
-    EOS
-    (bin/"teamserver").write <<~EOS
-      #!/bin/sh
-      cd #{libexec} && ./teamserver "$@"
-    EOS
+    
   end
 
   test do
-    #system "#{bin}/blah"
+
   end
 end
